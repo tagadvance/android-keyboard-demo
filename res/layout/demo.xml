@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<Button android:id="@+id/button" android:background="@drawable/sym_keyboard_done"
+		android:layout_height="fill_parent" android:layout_width="fill_parent" />
+	<LinearLayout android:layout_height="wrap_content"
+		android:layout_width="wrap_content">
+		<android.inputmethodservice.KeyboardView
+			android:id="@+id/keyboardView" android:visibility="gone"
+			android:focusable="true" android:focusableInTouchMode="true"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:layout_weight="0" />
+	</LinearLayout>
+</FrameLayout>
